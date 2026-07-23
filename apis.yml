@@ -1,22 +1,74 @@
 aid: atheromed
-name: Atheromed
-description: Atheromed is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/atheromed.png
+name: AtheroMed
+description: >-
+  AtheroMed, Inc. was a privately-held medical device company based in Menlo Park, California,
+  founded to treat peripheral artery disease (PAD). Its sole product was the Phoenix Atherectomy
+  System, an over-the-wire, low-profile atherectomy catheter that uses a rotating front-cutting
+  element at the distal tip to shave diseased material directly into the catheter, where an
+  internal Archimedes screw continuously captures and removes the debulked material without
+  requiring specialized capital equipment. The Phoenix system received FDA 510(k) clearance in
+  January 2014 and CE Mark approval in Europe. AtheroMed was venture-backed by Canaan Partners
+  and U.S. Venture Partners, and was acquired by Volcano Corporation in June 2014 for $115
+  million upfront plus milestone payments; Volcano was in turn acquired by Royal Philips in
+  February 2015. AtheroMed no longer operates as an independent company, its atheromed.com
+  domain is parked and listed for sale, and it has no developer program, public API, or
+  machine-readable API artifacts of any kind. The Phoenix catheter is now sold as a Philips
+  Volcano product.
 url: https://raw.githubusercontent.com/api-evangelist/atheromed/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - canaan-partners
+- us-venture-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: acquired
+x-acquired-by: Volcano Corporation
+x-acquired-date: '2014-06-17'
+x-acquired-amount: USD 115000000
+x-successor-parent: Koninklijke Philips N.V.
+x-headquarters: Menlo Park, California, United States
+x-industry: Medical Devices
+x-api-surface: none
+x-api-surface-note: >-
+  Verified 2026-07-19. atheromed.com resolves to NameBright parking nameservers and redirects
+  (HTTP 200) to hugedomains.com — the domain is for sale. No developer portal, documentation,
+  API reference, OpenAPI/AsyncAPI spec, SDK, package, CLI, MCP server, webhook surface,
+  security.txt, or trust center exists for this company. No artifacts were fabricated.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Medical Devices
+- Health Care
+- Cardiovascular
+- Peripheral Artery Disease
+- Atherectomy
+- Medical Technology
+- Acquired
+- Defunct
 apis: []
+common: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
