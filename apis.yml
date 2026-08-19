@@ -47,7 +47,7 @@ x-api-surface-note: >-
   (HTTP 200) to hugedomains.com — the domain is for sale. No developer portal, documentation,
   API reference, OpenAPI/AsyncAPI spec, SDK, package, CLI, MCP server, webhook surface,
   security.txt, or trust center exists for this company. No artifacts were fabricated.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
